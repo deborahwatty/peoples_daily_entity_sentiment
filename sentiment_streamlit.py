@@ -22,7 +22,7 @@ def load_data(year):
     return pd.read_excel(f'/xlsx-new/{year}.xlsx')
 
 def load_filtered_data(year, synonyms):
-    df = pd.read_excel(f'/{year}.xlsx')
+    df = pd.read_excel(f'/xlsx-new/{year}.xlsx')
     # Filter rows containing any synonym in the 'title' or 'doc_content'
 
     filtered_df = df[
