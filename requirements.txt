@@ -5,3 +5,4 @@ pandas
 google-generativeai
 matplotlib
 statsmodels
+openpyxl
