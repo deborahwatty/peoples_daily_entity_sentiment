@@ -1,0 +1,8 @@
+streamlit
+openai
+gc
+python_dotenv
+pandas
+google-generativeai
+matplotlib
+statsmodels
